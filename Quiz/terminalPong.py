@@ -6,8 +6,8 @@ import threading
 import multiprocessing
 import tty
 import termios
-from ball import move_ball
-from shared import ball_x, ball_y, paddle1_y, paddle2_y, PADDLE_SIZE
+from Quiz.ball import move_ball
+from Quiz.shared import ball_x, ball_y, paddle1_y, paddle2_y, PADDLE_SIZE
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')

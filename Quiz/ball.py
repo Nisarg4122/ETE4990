@@ -1,6 +1,6 @@
 # ball.py
 import time
-from shared import ball_x, ball_y, ball_dx, ball_dy, paddle1_y, paddle2_y, PADDLE_SIZE
+from Quiz.shared import ball_x, ball_y, ball_dx, ball_dy, paddle1_y, paddle2_y, PADDLE_SIZE
 
 def move_ball(height, width):
     while True:
